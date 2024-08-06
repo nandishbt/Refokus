@@ -6,7 +6,7 @@ const Navbar = () => {
     const [menu,setmenu] = useState("Home")
     
   return (
-    <div className="max-w-screen-2xl mx-auto py-12 h-10 flex justify-between items-center mb-10">
+    <div className="w-2/3 mx-auto py-12 h-10 flex justify-between items-center mb-10">
       <div className="flex">
         <img src="https://cdn.prod.website-files.com/6334198f239547d0f9cd84b3/63349803431f1562dccf1802_refokus%20logo.svg" />
 
