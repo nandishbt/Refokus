@@ -1,9 +1,9 @@
 import React from "react";
 import { HiArrowLongRight } from "react-icons/hi2";
 
-function Card({ width , heading, top, main,para,hover='bg-slate-700' }) {
+function Card({ width , heading, top, main,para,hover}) {
   return (
-    <div className={`${width} h-[50vh]  bg-zinc-700  hover:${hover} p-5 flex flex-col justify-between`}>
+    <div className={ hover? `${width} h-[50vh]  bg-zinc-700  hover:bg-violet-500 p-5 flex flex-col justify-between` : `${width} h-[50vh]  bg-zinc-700  p-5 flex flex-col justify-between`}>
       <div className="upper">
         <div className="flex items-center justify-between">
           <h2>{top}</h2>
