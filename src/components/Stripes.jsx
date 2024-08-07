@@ -21,3 +21,7 @@ const Stripes = () => {
 };
 
 export default Stripes;
+
+
+
+

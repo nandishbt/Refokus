@@ -39,7 +39,7 @@ const Products = () => {
      
     },
   ];
-  return <div>
+  return <div className="mt-32">
         {products.map((elem,i)=><Product  key={i} data = {elem}/>)}
     
   </div>;
