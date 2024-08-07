@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className='mt-32 w-2/3 py-10 flex mx-auto gap-32 items-center'>
         <div className='left w-1/2 '>
-        <h1 className='text-[11rem] font-semibold leading-none tracking-tight'>Refokuss</h1>
+        <h1 className='text-[10.5rem] font-semibold leading-none tracking-tight'>Refokus</h1>
         
         </div>
 
@@ -12,14 +12,14 @@ const Footer = () => {
 
 
         <div className='right w-1/2 flex items-center justify-between'>
-        <div className='flex flex-col'>
+        <div className='flex flex-col w-1/3'>
             <h2 className='mb-10' >Socials</h2>
             {["Instagram", "Twitter", "linkedin", "facebook"].map((e,i)=>(
                 <a className='text-zinc-500 mt-3'  href="#" key={i}>{e}</a>
             ))}
         </div>
 
-        <div className='flex flex-col'>
+        <div className='flex flex-col w-1/3'>
             <h2 className='mb-10' >Socials</h2>
             {["Instagram", "Twitter", "linkedin", "facebook"].map((e,i)=>(
                 <a className='text-zinc-500 mt-3'  href="#" key={i}>{e}</a>
