@@ -13,10 +13,10 @@ const Work = () => {
     
   return (
     <div className='w-full mt-10'>
-        <div className='w-2/3 mx-auto relative'>
-            <h1 className='text-[25vw] leading-none tracking-tight font-thicker select-none'>Work</h1>
-            <div className='absolute w-full h-full top-0 left-0'>
-                {imgs.map((elem,i)=> (elem.isActive && <img key={i} className='absolute -translate-x-[50%] -translate-y-[50%] w-72' style={{top:elem.top, left:elem.left}}
+        <div className='w-2/3 mx-auto relative  max-[600px]:w-full mt-10 px-5'>
+            <h1 className='text-[25vw] leading-none tracking-tight font-thicker select-none  max-[600px]:text-[35vw]'>Work</h1>
+            <div className='absolute w-full h-full top-[0] left-0  max-[600px]:top-[100%]'>
+                {imgs.map((elem,i)=> (elem.isActive && <img key={i} className='absolute -translate-x-[50%] -translate-y-[50%] w-72 max-[600px]:w-44' style={{top:elem.top, left:elem.left}}
                   src={elem.url}/>) )}
             </div>
 

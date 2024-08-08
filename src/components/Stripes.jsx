@@ -12,7 +12,7 @@ const Stripes = () => {
   ];
 
   return (
-    <div className="flex mt-60 mb-10">
+    <div className="flex mt-60 mb-10 max-[600px]:flex-wrap">
       {data.map((val,i)=>(
         <Stripe key={i} index={i} val= {val}  last={data.length - 1}/>
       ))}

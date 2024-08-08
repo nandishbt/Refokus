@@ -39,7 +39,7 @@ const Products = () => {
      
     },
   ];
-  return <div className="mt-32">
+  return <div className="mt-32 max-[600px]:mt-20">
         {products.map((elem,i)=><Product  key={i} data = {elem}/>)}
     
   </div>;

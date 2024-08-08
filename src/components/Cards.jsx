@@ -3,7 +3,7 @@ import Card from "./Card";
 
 function Cards() {
   return (
-    <div className="w-2/3 mx-auto py-20 px-10 flex items-center justify-between gap-1  mt-32">
+    <div className="w-2/3 mx-auto py-20 px-10 flex items-center justify-between gap-1  mt-32 max-sm:w-full max-sm:flex-col">
       <Card
         width={"w-[33%]"}
         top="Up Next:Culture"
